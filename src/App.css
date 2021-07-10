@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+    height:100%;
+    position: relative;
+}
+.avatar {
+  position: absolute;
+  top:20px;
+  width : 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border:8px solid #fff;
+}
+.avatar--content {
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+}
+.img {
+  width:100%;
+  height:100%;
+}
+.main{
+  width: 70%;
+  background-color: white;
+  margin-top:80px;
+  border-radius:40px;
+}
+h1{
+  margin:50px 0px 5px;
+}
+h2{
+  margin:5px;
+}
+.main__list{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+.a--link {
+  width:90%;
+  margin : 10px 0px;
+  text-decoration: none;
+}
+.a__btn {
+  width:100% !important;
+  background-color: white;
+  border-radius: 25px;
+  padding:10px;
+  border: 1px solid #b7b5b1e6;
+  font-size:15px;
+  cursor: pointer;
+  color: #000;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.spanButton{
+  display: none;
+}
+.a__btn:hover {
+  transition-property: all;
+					            transition-duration: 0.3s;
+					            transition-timing-function: ease;
+					            transition-delay: 0s;
+					            -webkit-box-shadow: 1px 5px 10px -1px rgba(0, 0, 0, 0.5);
+					            -moz-box-shadow: 1px 5px 10px -1px rgba(238, 105, 105, 0.5);
+					            box-shadow: 1px 5px 10px -1px rgba(251, 191, 78, 0.5);
+}
+.a__btn:hover .spanButton {
+  display:contents;
+}
